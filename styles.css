@@ -158,9 +158,14 @@ h3 {
 
 }
 
-.Summaries {
+.Summary-G {
     font-size: 1.4rem;
     text-align: left;
+}
+
+.Summary-B {
+    font-size: 1.4rem;
+    text-align: right;
 }
 
 hr {
