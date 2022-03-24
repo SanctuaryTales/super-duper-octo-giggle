@@ -142,8 +142,8 @@ h3 {
 /* Comics */
 .Greeting {
     font-size: 22px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
 
     width: 50%;
     margin: auto;
