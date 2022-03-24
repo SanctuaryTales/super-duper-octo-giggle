@@ -160,7 +160,7 @@ h3 {
 
 .Summaries {
     font-size: 1.4rem;
-    text-align: left;
+    text-align: center;
 }
 
 hr {
@@ -174,7 +174,7 @@ hr {
     margin-right: auto;
     width: 35%;
     float: left;
-    padding-right: 5%;
+    padding-right: 3%;
 
 }
 
@@ -184,7 +184,7 @@ hr {
     margin-right: auto;
     width: 35%;
     float: right;
-    padding-left: 5%;
+    padding-left: 3%;
 
 }
 
@@ -237,10 +237,4 @@ hr {
 }
 
 
-/* Media */
-@media (max-width: 1028px) {
-    .bunnies {
-        min-width: auto;
-    }
 
-}
