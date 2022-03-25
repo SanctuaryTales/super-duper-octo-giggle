@@ -160,10 +160,11 @@ h3 {
     color: #11999E;
 }
     
-    .comic-images {
+.comic-images {
     display: block;
     margin: 20px auto;
-    width: 25%;
+    max-width: 30%;
+    min-width:20%
 }
 
 hr {
