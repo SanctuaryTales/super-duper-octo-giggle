@@ -150,23 +150,16 @@ h3 {
 
 }
 
-.Issue_1 {
-    margin: auto auto 100px auto;
-
-    width: 50%;
-
-
+.comic-titles {
+    font-size: 2.15rem;
+    text-align: center;
+    color: #11999E;
 }
-
-.Summary-G {
-    font-size: 1.4rem;
-    text-align: left;
-}
-
-.Summary-B {
-    font-size: 1.4rem;
-    text-align: right;
-}
+    
+    .comic-images {
+    display: block;
+    margin: 20px auto;
+    width: 15%;
 
 hr {
     border-top: 5px dotted #547a7a;
