@@ -41,23 +41,40 @@
     </div>
 
     <hr>
-    <div class="Comics">
-      <h2>Comics</h2>
-      <div class="Issue_1">
-        <img class="Grumpy" src="Assets/Grumpy_Pig_C.png" alt="Grumpy Grace">
-        <h3 style="text-align: left;"> <em><strong> Grace the Grumpy Pig</em></strong></h3>
-        <p class="Summary-G">A story about one pig who just can't get along with anybody on
-          the farm. At first...</p>
+    <h2>Comics</h2>
+    <section id="comics">
+      <div id="carousel-comics" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-comics" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-comics" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          
+            <h2 class="comic-titles">Grace the Grumpy Pig</h2>
+            <img class="comic-images"  src="Assets/Grumpy_Pig_C.png" alt="Grace">
+            <h4 class="comic-summary"><em>A story about one pig who just can't get along with anybody on
+              the farm. At first...</em></h4>
+           </div>
+          <div class="carousel-item">
+            <h2 class="comic-titles">Bunnies of Chaos</h2>
+             <img class="comic-images" src="Assets/bunny_profile.png" alt="Bunnies">
+            <h4 class="comic-summary"> <em>Two chaotic bunnies kicking up trouble anywhere they go</em></h4>
+          </div>
+            
+    
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-comics" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-comics" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-       
-      <div class="Issue_1">
-        <img class="bunnies" src="Assets/bunny_profile.png" alt="">
-        <h3 style="text-align: left;"><em><strong>Bunnies of Chaos</strong></em></h3>
-        <p class="Summary-B">Two chaotic bunnies kicking up trouble anywhere they go!</p>
-      </div>
-
-    </div>
-
+  
+    </section>
     <div class="contact-me">
       <hr>
       <h2>Get in Touch</h2>
