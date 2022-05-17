@@ -359,14 +359,14 @@ article{
 
     }
 
-    #news-photo{
+      #news-photo{
         display: block;
-        width: 100%;
-        height: auto;
+        max-width: 80%;
+        max-height: auto;
     }
 
     h2{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
 } */
