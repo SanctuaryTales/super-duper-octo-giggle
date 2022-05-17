@@ -150,46 +150,34 @@ h3 {
 
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
+
 
 .comic-titles {
     font-size: 2.15rem;
     text-align: center;
     color: #11999E;
 }
-    
+
+
+hr {
+    border-top: 5px dotted #547a7a;
+    margin: 35px 550px;
+}
+
 .comic-images {
     display: block;
     margin: 20px auto;
     max-width: 30%;
-    min-width:20%
-}
+    min-width: 20%;
 
-hr {
-    border-top: 5px dotted #547a7a;
-    margin: 55px 550px;
-}
-
-.Grumpy {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    float: right;
-    padding-left: 3%;
 
 }
 
-.bunnies {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    float: left;
-    padding-right: 3%;
 
+
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 /* Buttons */
@@ -241,4 +229,138 @@ hr {
 }
 
 
+/*Page Buttons */
 
+.home-button{
+    top: 5%;
+    left: 80%;
+    position: absolute;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.articles-button{
+    top: 5%;
+    left: 90%;
+    position: absolute;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    
+}
+
+/* Articles page */
+.container{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container .row{
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .row .header h1{
+    padding-top: 30px;
+    font-size: 3.5rem;
+    color: rgb(15, 14, 14);
+}
+
+.container .row .header p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+
+/* content display */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    background-color: #fff;}
+
+.content .card img{
+    width: 100%;
+    height: auto;
+
+
+}
+
+.content .card h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #273636;
+    
+
+}
+
+.content .card p{
+    color: #6e6e6e;
+    line-height: 1.5;
+    font-size: 1 rem;
+    padding: 10px;
+
+}
+
+#image_1{
+    height: 50%;
+}
+
+/* Articles */
+article{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+
+}
+
+#news-photo{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+    .bunnies {
+        min-width: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }
+
+    .home-button{
+        left: 65%;
+        position:absolute;
+    }
+    
+}
