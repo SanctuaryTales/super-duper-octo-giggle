@@ -361,6 +361,17 @@ article{
     .home-button{
         left: 65%;
         position:absolute;
+        width: 10%;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+    .articles-button{
+        left: 80%;
+        position: absolute;
+        width: 10%;
+        height: auto;
+        font-size: 0.8rem;
     }
     
 }
