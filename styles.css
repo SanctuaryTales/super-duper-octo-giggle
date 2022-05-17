@@ -345,7 +345,7 @@ article{
     margin-right: auto;
 }
 
-/* Media */
+/* Media
 @media (max-width: 1028px) {
     .bunnies {
         min-width: auto;
@@ -359,11 +359,25 @@ article{
 
     }
 
-}
+    #news-photo{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+} */
 
 @media screen and (max-width: 768px) {
     .content{
         flex-direction: column;
+    }
+
+    .bunnies {
+        min-width: auto;
     }
 
     .home-button{
@@ -387,6 +401,16 @@ article{
         margin-left: 5px;
         margin-right: 5px;
         padding: 5%;
+    }
+
+    #news-photo{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    h2{
+        font-size: 1.5rem;
     }
     
 }
