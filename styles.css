@@ -92,7 +92,7 @@ h3 {
     height: auto;
     width: 15%;
     position: absolute;
-    top: 15%;
+    top: 25%;
     right: 10%;
 }
 
@@ -102,7 +102,7 @@ h3 {
     width: 15%;
     position: absolute;
     top: 15%;
-    left: 10%;
+    left: 15%;
 }
 
 
@@ -351,6 +351,14 @@ article{
         min-width: auto;
     }
 
+    .article{
+        font-size: 0.8rem;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5%;
+
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -373,5 +381,25 @@ article{
         height: auto;
         font-size: 0.8rem;
     }
+
+    .article{
+        font-size: 0.8rem;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5%;
+    }
     
 }
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-Light, sans-serif;
+    }
+
+.navbar{
+        padding:0 0 4.5rem;
+    }
+    
+.nav-item{
+        padding: 0 18px;
+    }
