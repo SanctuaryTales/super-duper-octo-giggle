@@ -32,18 +32,19 @@ h3 {
     font-size: 2.15rem;
 }
 
-/* Containers */
+/* Containers
 .top-container {
     background-color: #5bd3d3;
 
     padding: 100px 0px 0px 0px;
-}
+}  */
 
 .container-fluid {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding: 0px, 0px;
+    padding: 100px 0px 0px 0px;
+    background-color: #5bd3d3;
 }
 
 .middle-container {
