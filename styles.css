@@ -39,6 +39,12 @@ h3 {
     padding: 100px 0px 0px 0px;
 }
 
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .middle-container {
 
     background-color: rgb(247, 220, 224);
